@@ -1,0 +1,10 @@
+name = "workers-template"
+main = "dist/index.mjs"
+compatibility_date = "2023-05-21"
+compatibility_flags = []
+usage_model = "unbound"
+
+workers_dev=false
+
+[build]
+command = "tsx build.ts"

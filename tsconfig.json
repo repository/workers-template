@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext"],
+    "types": ["@cloudflare/workers-types"],
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+  },
+  "outDir": "dist",
+  "include": ["src/**/*", "bindings.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
